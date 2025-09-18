@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to Python</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #ddd;
+      line-height: 1.6;
+      background: url("https://miro.medium.com/v2/resize:fit:2000/1*flCjLnXIFhgFJkB30YjN0g.jpeg") no-repeat center center fixed;
+      background-size: cover; /* makes it fill the screen */
+    }
+    .card {
+      position: relative;
+      border-radius: 16px;
+      padding: 18px;
+      margin: 25px auto;
+      max-width: 800px;
+
+      /* Slightly transparent background for the card itself */
+      background: rgba(20, 20, 20, 0.6);
+      color: #ddd;
+
+      /* Frosted border */
+      border: 4px solid rgba(255, 255, 255, 0.2);
+
+      /* The magic: blur behind the element */
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px); /* Safari support */
+
+      /* Optional for a glossy look */
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    }
+
+      header {
+        background-color: #111;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 2px solid #7a42f4;
+      }
+
+      header h1 {
+        color: #c9a4f9;
+        font-size: 2rem;
+      }
+
+    nav {
+      position: fixed;     /* sticks to the side */
+      top: 100px;          /* space below the header */
+      left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      background: rgba(20, 20, 20, 0.6);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      padding: 15px;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    nav a {
+      color: #c9a4f9;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s, transform 0.2s;
+    }
+
+    nav a:hover {
+      color: #fff;
+      transform: translateX(5px);
+    }
+
+    section {
+      padding: 35px 20px;
+      max-width: 800px;
+      margin: auto;
+      margin-left: 180px;
+    }
+
+    section h2 {
+      color: #fdfdfd;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+    }
+
+    code {
+      display: block;
+      background: #111;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      font-family: "Courier New", monospace;
+      color: #ffffff;
+      white-space: pre-wrap;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      border-top: 2px solid #7a42f4;
+      color: #666;
+      margin-top: 50px;
+    }
+
+    /* Smooth scroll */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    footer .credits {
+        font-size: 0.8rem;   
+        color: #777;         
+        text-align: center;  
+        margin-top: 5px;
+    }
+
+    section ul {
+        margin: 10px 0 20px 20px;  /* spacing around list */
+    }
+
+section li {
+        margin-bottom: 5px;
+        color: #c9a4f9; /* light purple accent */
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Introduction to Python</h1>
+</header>
+
+<nav>
+  <h3>Contents:</h3>
+  <a href="#definition">Definition</a>
+  <a href="#applications">Applications</a>
+  <a href="#usage">Real World Usage</a>
+  <a href="#examples">Example Codes</a>
+</nav>
+
+  <section id="definition" class="card">
+    <h2>Definition</h2>
+    <p>Python is a high-level, interpreted programming language known for its readability and versatility. It is widely used for web development, data science, automation, and even machine learning.</p>
+    
+    <h3>Strengths</h3>
+    <ul>
+        <li>Simplicity and easy to read, not a lot of programming languages offer a welcoming hand to beginners, especially in the road of software development, a key strength of Python is its readability.</li>
+        <li>Extensive Libraries, convinience is not a key aspect of programming but I personally am not going to deny it. Python's extensive library and extension could help accelerate development.</li>
+        <li>Versitile, a programming language usually only excels in a main point or purpose, but that much is not true for python, as many applications can be innovated with this programming language such as; Game Development, Software engineering, machine learning, web development and much more.</li>
+        <li>Cross-Platform compatibility, of course having flexibility but not a lot of accessibility or ways to share your system with the rest of the world would be a masive deal breaker for python, if it ever were the case, but fortunately, Python offers a wie range of platform compatibility ranging from; Windows, macOS, and Linux.</li>
+    </ul>
+    <h3>Weaknesses</h3>
+    <ul>
+        <li>Speed and Performance, for a language that is intuitive and versatile, heavy duty tasks and computing is not it's cup of tea, infact python gets over shadowed by other programming languages when it comes to performance optimizationa and computaing speeds, unlike C++ and JAVA which greatly exceeds python in that matter</li>
+        <li>Unstable mobile development, almost every person in the world is now using smartphones, it's light, fast and easier to access and carry around, unfortunately for python although it supports a great variety of platforms, it falls short on mobile or smartphone; eg. Android, AppleOS</li>
+        <li>One of the many reasons why python operates a lot slower, is because of it's dynamic typing, as it's not that much case sensitive, it ca a longer time to compile and debbug.</li>
+    </ul>
+</section>
+
+  <section id="applications" class="card">
+    <h2>Applications</h2>
+    <ul>
+      <li>Web Development</li>
+      <li>Data Science & Machine Learning</li>
+      <li>Automation & Scripting</li>
+      <li>Game Development</li>
+      <li>Cybersecurity</li>
+    </ul>
+  </section>
+
+  <section id="usage" class="card">
+    <h2>Real World Usage</h2>
+    <p>Companies like Google, Netflix, and NASA use Python for tasks such as AI research, recommendation engines, and automation of complex systems. <br></p>
+    
+    <h3>Main Applications:</h3>
+    <ul>
+        <li>Web Development</li>
+        - While python is mostly used for data science computing, but some of the famous and well known social media platforms of today uses python frameworks; Instagram, Reddit and Pinterest.
+        <li>Machine Learning</li>
+        - Machine learning in this current era of technology is one the most revolutionary technology ever developed as it has the most usability and flexability in on multiple platforms.
+        <li>Game Development</li>
+        - Game dev using python is smooth and reliable, you can expect to make pretty decent games with the use of python and it's modules, best for indie game development and small projects.
+    
+      </ul>
+
+
+</section>
+
+  <section id="examples" class="card">
+    <h2>Example Codes</h2>
+  <code>
+    # Hello World in Python
+    print("Hello, World!")
+
+    # Print Roman numerals I to X
+    roman_numerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
+
+    for numeral in roman_numerals:
+    print("Roman Numeral:", numeral)
+  </code>
+</section>
+    
+  <footer>
+  <p>&copy; 2025 Python Introduction Guide</p>
+  <p class="credits">Created by Gio Alvarez • Powered by SoftCom Studios</p>
+</footer>
+
+</body>
+</html>
